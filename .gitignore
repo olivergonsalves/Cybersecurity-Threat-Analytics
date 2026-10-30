@@ -6,3 +6,8 @@ venv/
 .DS_Store
 *.sqlite
 *.sqlite3
+
+# Historical source artifacts retained locally.
+/CyberAttackFinalProject.html
+/Team 4_ Data Analytics with Python - Final Project.pptx
+/notebooks/CyberAttackFinalProject_original.ipynb

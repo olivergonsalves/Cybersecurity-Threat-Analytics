@@ -41,7 +41,6 @@ CV selects the forest (150 trees, minimum leaf size 10, unlimited depth). Its te
 │   ├── cybersecurity_attacks.csv
 │   └── Indian_states.{shp,shx,dbf,prj}
 ├── notebooks/
-│   ├── CyberAttackFinalProject_original.ipynb
 │   └── Cybersecurity_Analysis.ipynb
 ├── sql/
 │   └── analysis.sql
@@ -50,7 +49,7 @@ CV selects the forest (150 trees, minimum leaf size 10, unlimited depth). Its te
 └── .gitignore
 ```
 
-The supplied HTML and PowerPoint exports also remain at the root as unchanged source artifacts. Original notebook/data/shapefile contents were verified byte-for-byte after organization; the DBF stem was capitalized to match its shapefile. The original notebook retains its historical paths and dependencies; use the improved notebook for the runnable analysis. No separate scripts, database files, dashboard, or production infrastructure are required.
+The repository contains the current analysis and the original dataset and shapefiles required to run it. The historical notebook, HTML export, and PowerPoint are preserved locally and excluded from tracking. Section 4 reproduces the earlier model directly, without loading the historical notebook. The DBF stem was capitalized to match its shapefile; original source contents were preserved unchanged. No separate scripts, database files, dashboard, or production infrastructure are required.
 
 **Run the improved notebook**
 
